@@ -3,6 +3,6 @@ var app = new Vue({
     data: {
         greetings: "Hello World!",
         description: "Hey, My name is Mayuresh",
-        job: "I'm a Software Developer"
-    }
+    },
+    
 })
