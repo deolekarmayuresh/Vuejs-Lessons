@@ -1,3 +1,3 @@
 # Vuejs-Lessons
 
-Basics of Vue.js
+Learning basics of Vue.js 
