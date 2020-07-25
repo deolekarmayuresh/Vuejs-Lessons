@@ -30,6 +30,7 @@
                 <li v-for="size in sizes"> {{ size }} </li>
             </ul>
             <hr/>
+            <button @click="sizes.push('My size is M')">Add My Size</button>
             <a :href="link" target="_blank">Click here for more info</a>
         </div>
     </div>
