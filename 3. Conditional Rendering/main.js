@@ -4,6 +4,7 @@ var app = new Vue({
         product: 'Socks',
         image: 'vsocks.jpg',
         inStock: true,
+        onSale: true,
         link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks'
     }
 })
