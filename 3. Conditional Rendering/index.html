@@ -18,7 +18,8 @@
 
         <div class="product-info">
             <h1> {{ product }} </h1>
-            <a :href="link" target="_blank">Click here to learn more about Vue.js</a>
+            <p v-if:"instock">In Stock</p>
+            <a :href="link" target="_blank">Click here for more info</a>
         </div>
     </div>
     </div>
