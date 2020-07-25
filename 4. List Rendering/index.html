@@ -21,13 +21,15 @@
             <p v-if="inStock">In Stock</p>
             <p v-else>Out of Stock</p>
             <span v-if="onSale">On Sale!</span>
+            <hr>    
             <ul>
                 <li v-for="detail in details"> {{ detail }} </li>
             </ul>
-
+            <hr>
             <ul>
                 <li v-for="size in sizes"> {{ size }} </li>
             </ul>
+            <hr/>
             <a :href="link" target="_blank">Click here for more info</a>
         </div>
     </div>
