@@ -1,8 +1,8 @@
 var app = new Vue({
     el: '#app',
     data: {
-        product: 'Socks',
-        image: 'vsocks.jpg',
+        product: 'Learning Vue.js',
+        image: 'Vue.jpg',
         link: 'https://vuejs.org/'
     }
 })
