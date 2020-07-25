@@ -6,6 +6,7 @@ var app = new Vue({
         inStock: true,
         onSale: true,
         link: 'https://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&field-keywords=socks',
-        details: ["70% cotton", "30% polyster"]
+        details: ["70% cotton", "30% polyster"],
+        sizes: ['S','M','L','XL']
     }
 })
