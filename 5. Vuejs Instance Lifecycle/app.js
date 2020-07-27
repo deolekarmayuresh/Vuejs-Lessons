@@ -7,7 +7,7 @@ new Vue({
     methods: {
       show: function() {
         this.showParagraph = true;
-        this.updateTitle('The VueJS Instance (Updated)');
+        this.updateTitle('The VueJS First Instance (Updated)');
       },
       updateTitle: function(title) {
         this.title = title;
@@ -28,6 +28,6 @@ new Vue({
   new Vue ({
       el: '#app2',
       data: {
-          title: 'The second Instance'
+          title: 'The Vuejs Second Instance'
       }
   })
