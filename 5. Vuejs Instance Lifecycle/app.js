@@ -1,4 +1,4 @@
-new Vue({
+let v1 = new Vue({
     el: '#app1',
     data: {
       title: 'The VueJS Instance',
@@ -25,9 +25,14 @@ new Vue({
     }
   });
   
-  new Vue ({
+  let v2 = new Vue ({
       el: '#app2',
       data: {
           title: 'The Vuejs Second Instance'
+      },
+      methods: {
+          onChanged: function () {
+            v2.title = "Changed!"
+          }
       }
   });
