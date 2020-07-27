@@ -30,6 +30,7 @@ let v1 = new Vue({
 
     //v1.newProp = "New Properties!";
     console.log(v1.$data === data);
+    v1.$refs.heading.innerText = "Something is changing";
   
   setTimeout(function () {
       v1.title = "Change by Timer!",
