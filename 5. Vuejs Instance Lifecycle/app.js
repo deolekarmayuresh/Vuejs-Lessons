@@ -50,3 +50,9 @@ let v1 = new Vue({
           }
       }
   });
+
+  let v3 = new Vue ({
+    template: '<h2>Hey! This is element 3 </h2>'
+  });
+
+  v3.$mount('#app3');
