@@ -24,6 +24,10 @@ let v1 = new Vue({
       }
     }
   });
+
+  setTimeout(function () {
+      v1.title = "Change by Timer!"
+  }, 3000);
   
   let v2 = new Vue ({
       el: '#app2',
