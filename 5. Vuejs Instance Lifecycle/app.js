@@ -30,4 +30,4 @@ new Vue({
       data: {
           title: 'The Vuejs Second Instance'
       }
-  })
+  });
