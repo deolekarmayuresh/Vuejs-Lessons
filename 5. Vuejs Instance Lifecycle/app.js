@@ -1,9 +1,11 @@
+let data = {
+    title: 'The VueJS Instance',
+    showParagraph: false
+}
+
 let v1 = new Vue({
     el: '#app1',
-    data: {
-      title: 'The VueJS Instance',
-      showParagraph: false
-    },
+    data: data,
     methods: {
       show: function() {
         this.showParagraph = true;
@@ -25,7 +27,8 @@ let v1 = new Vue({
     }
   });
 
-    
+    //v1.newProp = "New Properties!";
+    console.log(v1.$data === data);
   
   setTimeout(function () {
       v1.title = "Change by Timer!",
@@ -36,7 +39,7 @@ let v1 = new Vue({
       el: '#app2',
       data: {
           title: 'The Vuejs Second Instance'
-      },
+      }, 
       methods: {
           onChanged: function () {
             v2.title = "Changed!"
