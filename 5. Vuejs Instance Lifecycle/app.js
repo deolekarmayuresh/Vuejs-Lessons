@@ -4,7 +4,7 @@ let data = {
 }
 
 let v1 = new Vue({
-    el: '#app1',
+    //el: '#app1',
     data: data,
     methods: {
       show: function() {
@@ -27,6 +27,8 @@ let v1 = new Vue({
       }
     }
   });
+
+  v1.$mount('#app1');
 
     //v1.newProp = "New Properties!";
     console.log(v1.$data === data);
