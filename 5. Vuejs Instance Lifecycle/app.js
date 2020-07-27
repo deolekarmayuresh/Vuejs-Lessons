@@ -10,6 +10,7 @@ let v1 = new Vue({
       show: function() {
         this.showParagraph = true;
         this.updateTitle('The VueJS First Instance (Updated)');
+        this.$refs.myButton.innerText = "Test Button";
       },
       updateTitle: function(title) {
         this.title = title;
