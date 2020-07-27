@@ -55,4 +55,6 @@ let v1 = new Vue({
     template: '<h2>Hey! This is element 3 </h2>'
   });
 
-  v3.$mount('#app3');
+  //v3.$mount('#app3');
+  v3.$mount();
+  document.getElementById('app3').appendChild(v3.$el);
