@@ -26,5 +26,10 @@ new Vue({
     },
     destroyed: function() {
         console.log('destroyed()');
-    } 
+    },
+    methods: {
+        destroy: function() {
+            this.$destroy();
+        }
+    }
 });
