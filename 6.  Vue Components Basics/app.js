@@ -5,7 +5,7 @@ Vue.component('my-comp', {
         }
     },
 
-    template: '<p> Server Status: {{ ststus }} </p>'
+    template: '<p> Server Status: {{ status }} </p>'
 });
 
 new Vue({
