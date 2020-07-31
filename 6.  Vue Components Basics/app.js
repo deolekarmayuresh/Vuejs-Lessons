@@ -1,6 +1,8 @@
 let data = { status: 'Error 404'};
 
-Vue.component('my-comp', {
+//Vue.component((), {})
+
+let comp = {
     data: function() {
         return {
             status: 'Error 404'
@@ -14,8 +16,19 @@ Vue.component('my-comp', {
             this.status = 'OK 200';
         }
     },
-});
+};
 
 new Vue({
-    el: '#app'
+    el: '#app1',
+    components: {
+        'my-comp': comp
+    } 
+})
+
+new Vue({
+    el: '#app2',
+    components: {
+        'my-comp': comp
+    } 
+
 })
