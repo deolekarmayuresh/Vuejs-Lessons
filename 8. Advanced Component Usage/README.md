@@ -1,4 +1,4 @@
-# wonderful-quotes
+# The Wonderful Quotes!
 
 > A vue.js Project
 
