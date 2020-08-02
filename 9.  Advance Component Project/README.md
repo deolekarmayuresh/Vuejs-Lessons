@@ -1,4 +1,4 @@
-# vue-cli
+# Advanced Component Usage Demo  
 
 > A Vue.js project
 
